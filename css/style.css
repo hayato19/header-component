@@ -1,0 +1,40 @@
+/* headerエリア -----------------------*/
+.header {
+    width: 100%;
+    hight: 10px;
+    background-color: #ffffff;
+}
+
+.header-logo{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 30px;
+}
+
+a {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    color :#111111;
+    justify-content: end;
+}
+/*以下縦長の場合*/
+@media screen and (max-width: 768px){
+    .header-logo{
+        justify-content: center;
+        display: flex;
+    }
+
+    li{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+/* mainエリア -----------------------*/
+.main {
+    height: 2100px;
+    background: linear-gradient(45deg, #030303, #03030366);
+}
